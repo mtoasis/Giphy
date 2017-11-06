@@ -18,7 +18,7 @@
       method: 'GET'
     }).done(function(response) {
       results=response.data;
-      console.log(results)
+      // console.log(results)
           
 
       for (var i=0; i<12; i++){
@@ -34,7 +34,7 @@
       
       }
     })
-  console.log(results)
+  // console.log(results)
 });
 
 
@@ -62,7 +62,7 @@
    $(document).on("click",".images_div",function pausing_image(){
 
     var data_state = $(this).attr("data-state");
-    console.log(data_state);
+    // console.log(data_state);
     var index = $(this).attr("number");    
 
     if (data_state=="still"){
