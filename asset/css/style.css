@@ -1,0 +1,64 @@
+img{
+	width:110px;
+	height: 110px;
+	padding:10px;	
+	border:solid 1px #20B2AA;
+	margin:5px;
+}
+
+button{
+	border:solid 3px #20B2AA;
+	background-color: white;
+	width:100px;
+	margin:5px;
+}
+
+p{
+	font-weight: bold;
+}
+
+#add_button{
+	width:120px;
+	height:40px;
+}
+
+.add_div{
+	position: absolute;
+	right:5%;
+	top:5%;
+	min-width:230px;
+	height:45px;
+}
+
+#input_box{
+	width:100px;
+	border:double #20B2AA 3px;
+	background-color: #F2F2FC;
+}
+
+.content_div{
+	border:double #20B2AA 3px;
+	width:70%;
+	height:650px;
+	position: absolute;
+	top:15%;
+
+}
+
+.gif_div{
+	float:left;
+}
+
+.instruction{
+	border:double #20B2AA 3px;
+	width:180px;
+	height:200px;
+	position:absolute;
+	right:5%;
+	top:17%;
+	padding:5px;
+}
+
+p.big{
+	font-size: 25px;
+}
