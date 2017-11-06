@@ -7,7 +7,7 @@
   $(document).on("click",".menu_button",function(){
 
   var animal_type=$(this).text();
-  var queryURL ='http://api.giphy.com/v1/gifs/search?q='+animal_type+'&api_key=dc6zaTOxFJmzC'
+  var queryURL ='https://api.giphy.com/v1/gifs/search?q='+animal_type+'&api_key=dc6zaTOxFJmzC'
       
    
     $(".content_div").empty();
